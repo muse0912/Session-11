@@ -1,0 +1,8 @@
+name = input ("please enter your full name: ")
+
+array = name.strip().split(" ")
+if len(array) != 2:
+  print ("Invalid input. Please type again! Put space between First and Last Name")
+
+else:
+  print(array[1]+","+array[0][0]+".")
